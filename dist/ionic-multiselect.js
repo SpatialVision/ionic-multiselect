@@ -97,7 +97,7 @@ angular.module("ionic-multiselect", [])
       //Attributes
       scope: {
         items: "=", // Needs to have a values
-        initValue: "=", // Needs to have a values
+        selectedValues: "=", // Needs to have a values
         valueChangedCallback: "&valueChanged", // The callback used to signal that the value has changed
         getCustomTextCallback: "&getCustomText" // The callback used to get custom text based on the selected value
       },
